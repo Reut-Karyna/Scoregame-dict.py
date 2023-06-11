@@ -9,9 +9,13 @@ This code implements a word scoring game where players earn points based on the 
 3.Player Scores: The code introduces a dictionary called player_to_words, which maps each player to a list of words they have played. It then creates an empty dictionary called player_to_points to store the total points earned by each player.
 
 -The code iterates through the items in player_to_words using a for loop, with each player and their list of words assigned to the variables player and words respectively.
+
 -For each player, a variable player_points is initialized to 0.
+
 -Another loop is used to iterate through each word in the player's list of words.
+
 -For each word, the score_word function is called to calculate its point value, which is then added to the player_points.
+
 -Finally, the total player_points is assigned to the respective player in the player_to_points dictionary.
 
 4.Printing Player Scores: The code prints the player_to_points dictionary, which represents the current standings of the game. Each player is displayed along with their corresponding total points.
